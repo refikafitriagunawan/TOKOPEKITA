@@ -125,7 +125,7 @@ if(isset($_POST["update"])){
 				</ul>
 			</div>
 			<div class="w3ls_logo_products_left">
-				<h1><a href="index.php">e-shop</a></h1>
+				<h1><a href="index.php">tokopekita</a></h1>
 			</div>
 		<div class="w3l_search">
 			<form action="search.php" method="post">
