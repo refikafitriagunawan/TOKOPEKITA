@@ -220,7 +220,7 @@ $timenow = date("j-F-Y-h:i:s A");
 		<div class="footer-copy">
 			
 			<div class="container">
-				<p>© 2021 Kelompok'4. All rights reserved</p>
+				<p>© 2022 Kelompok'4. All rights reserved</p>
 			</div>
 		</div>
 		
