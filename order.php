@@ -298,7 +298,7 @@ if(isset($_POST["update"])){
 					
 					<ul class="address">
 						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Padang</li>
-						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@email">kelompok4@gmail.com</a></li>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@email">kelompok1@gmail.com</a></li>
 						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+62 853 2052 5801</li>
 					</ul>
 				</div>
@@ -317,7 +317,7 @@ if(isset($_POST["update"])){
 		<div class="footer-copy">
 			
 			<div class="container">
-				<p>© 2020 Richard's Lab. All rights reserved</p>
+				<p>© 2022 Kelompok'1. All rights reserved</p>
 			</div>
 		</div>
 		
