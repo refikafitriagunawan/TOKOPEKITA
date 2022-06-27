@@ -32,7 +32,7 @@ if(isset($_POST["checkout"])){
 <!DOCTYPE html>
 <html>
 <head>
-<title>E-SHOP - Checkout</title>
+<title>TOKOPEKITA - Checkout</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -251,7 +251,19 @@ if(isset($_POST["checkout"])){
 						}
 					?>
 					
+				<!--quantity-->
+					<script>
+						$('.value-plus').on('click', function(){
+						var divUpd = $(this).parent().find('.value'), newVal = parseInt(divUpd.text(), 10)+1;
+						divUpd.text(newVal);
+						});
 
+						$('.value-minus').on('click', function(){
+						var divUpd = $(this).parent().find('.value'), newVal = parseInt(divUpd.text(), 10)-1;
+						if(newVal>=1) divUpd.text(newVal);
+						});
+					</script>
+				<!--quantity-->				
 				</table>
 			</div>
 			<div class="checkout-left">	
