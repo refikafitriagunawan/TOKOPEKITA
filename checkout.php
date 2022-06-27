@@ -115,7 +115,7 @@ if(isset($_POST["checkout"])){
 				</ul>
 			</div>
 			<div class="w3ls_logo_products_left">
-				<h1><a href="index.php">e-shop</a></h1>
+				<h1><a href="index.php">tokopekita</a></h1>
 			</div>
 		<div class="w3l_search">
 			<form action="search.php" method="post">
@@ -194,7 +194,7 @@ if(isset($_POST["checkout"])){
 <!-- checkout -->
 	<div class="checkout">
 		<div class="container">
-			<h1>Terima kasih, <?=$_SESSION['name']?> telah membeli <?php echo $itungtrans3 ?> barang di E-Shop</span></h1>
+			<h1>Terima kasih, <?=$_SESSION['name']?> telah membeli <?php echo $itungtrans3 ?> barang di Tokopekita</span></h1>
 			<div class="checkout-right">
 				<table class="timetable_sub">
 					<thead>
